@@ -109,56 +109,46 @@ class SideBar
         <h1 class='visually-hidden'>Sidebars examples</h1>
 
         <div class='d-flex flex-column flex-shrink-0 bg-light' style='width: 4.5rem;'>
-            <a href='/' class='d-block p-3 link-dark text-decoration-none' title='Icon-only' data-bs-toggle='tooltip' data-bs-placement='right'>
-            <img src='../public/images/Banka_e_Shqipërisë_Logo.svg' width='40' height='32'>
-            <span class='visually-hidden'>Icon-only</span>
+            <a href='/' class='d-block p-3 link-dark text-decoration-none' data-bs-toggle='tooltip' data-bs-placement='right'>
+            <img src='../public/images/bank-svgrepo-com.svg' width='40' height='32'>
+            <span class='visually-hidden'>Accueil</span>
             </a>
             <ul class='nav nav-pills nav-flush flex-column mb-auto text-center'>
             <li class='nav-item'>
-                <a href='#' class='nav-link active py-3 border-bottom' aria-current='page' title='Home' data-bs-toggle='tooltip' data-bs-placement='right'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-bank2' viewBox='0 0 16 16'>
-                    <path d='M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z'/>
+                <a href='#' class='nav-link active py-3 border-bottom' aria-current='page' title='Comptes' data-bs-toggle='tooltip' data-bs-placement='right'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' class='bi bi-bank2' viewBox='0 0 16 16'>
+                    <path d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z'/>
                 </svg>
                 </a>
             </li>
             <li>
-                <a href='#' class='nav-link py-3 border-bottom' title='Dashboard' data-bs-toggle='tooltip' data-bs-placement='right'>
-                <svg class='bi' width='24' height='24' role='img' aria-label='Dashboard'><use xlink:href='#speedometer2'/></svg>
+                <a href='#' class='nav-link py-3 border-bottom' title='Analyse' data-bs-toggle='tooltip' data-bs-placement='right'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='currentColor' class='bi bi-bank2' viewBox='0 0 16 16'>
+                    <path d='M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l-5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z'/>
+                </svg>
                 </a>
             </li>
             <li>
-                <a href='#' class='nav-link py-3 border-bottom' title='Orders' data-bs-toggle='tooltip' data-bs-placement='right'>
-                <svg class='bi' width='24' height='24' role='img' aria-label='Orders'><use xlink:href='#table'/></svg>
-                </a>
-            </li>
-            <li>
-                <a href='#' class='nav-link py-3 border-bottom' title='Products' data-bs-toggle='tooltip' data-bs-placement='right'>
-                <svg class='bi' width='24' height='24' role='img' aria-label='Products'><use xlink:href='#grid'/></svg>
-                </a>
-            </li>
-            <li>
-                <a href='#' class='nav-link py-3 border-bottom' title='Customers' data-bs-toggle='tooltip' data-bs-placement='right'>
-                <svg class='bi' width='24' height='24' role='img' aria-label='Customers'><use xlink:href='#people-circle'/></svg>
+                <a href='#' class='nav-link py-3 border-bottom' title='Profil' data-bs-toggle='tooltip' data-bs-placement='right'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='currentColor' class='bi bi-bank2' viewBox='0 0 16 16'>
+                    <path d='M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/>
+                </svg>
                 </a>
             </li>
             </ul>
             <div class='dropdown border-top'>
-            <a href='#' class='d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle' id='dropdownUser3' data-bs-toggle='dropdown' aria-expanded='false'>
+            <a class='d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle' id='dropdownUser3' data-bs-toggle='dropdown' aria-expanded='false'>
                 <img src='https://github.com/mdo.png' alt='mdo' width='24' height='24' class='rounded-circle'>
             </a>
             <ul class='dropdown-menu text-small shadow' aria-labelledby='dropdownUser3'>
-                <li><a class='dropdown-item' href='#'>New project...</a></li>
-                <li><a class='dropdown-item' href='#'>Settings</a></li>
-                <li><a class='dropdown-item' href='#'>Profile</a></li>
+                <li><a class='dropdown-item'>Mon compte</a></li>
                 <li><hr class='dropdown-divider'></li>
-                <li><a class='dropdown-item' href='#'>Sign out</a></li>
+                <li><a class='dropdown-item'>Déconnexion</a></li>
             </ul>
             </div>
         </div>
 
-        <div class='b-example-divider'></div>
-
-        ";
+        <div class='b-example-divider'></div>" . "<p>test</p>";
     }
 
     public function end() : string

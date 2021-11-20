@@ -1,8 +1,8 @@
 <?php
 
 require __DIR__ . "/vendor/autoload.php";
+require __DIR__ . "/src/controller/HomeController.php";
 
-use App\Controller\HomeController;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RequestContext;
 use Symfony\Component\Routing\RouteCollection;
