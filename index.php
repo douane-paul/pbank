@@ -2,6 +2,8 @@
 
 require __DIR__ . "/vendor/autoload.php";
 require __DIR__ . "/src/controller/HomeController.php";
+require __DIR__ . "/src/controller/AnalyseController.php";
+require __DIR__ . "/src/controller/ProfilController.php";
 
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RequestContext;
@@ -16,8 +18,24 @@ $home = new Route('/', [
     ]
 ]);
 
+$analyse = new Route('/analyse', [
+    'controller' => [
+        new AnalyseController(),
+        "analyse"
+    ]
+]);
+
+$profil = new Route('/profil', [
+    'controller' => [
+        new ProfilController(),
+        "profil"
+    ]
+]);
+
 $routeCollection = new RouteCollection();
 $routeCollection->add('home', $home);
+$routeCollection->add('analyse', $analyse);
+$routeCollection->add('profil', $profil);
 
 $context = new RequestContext();
 $matcher = new UrlMatcher($routeCollection, $context);

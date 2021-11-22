@@ -4,7 +4,7 @@
     Elle ne sert qu'à afficher le fait qu'une page n'ait pas été trouvée
  -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
 
 <body>
     <h1>Ooops ! La page demandée n'existe pas !</h1>
-    <a href="index.php">Revenir à la liste</a>
+    <a href="/">Revenir à la liste</a>
 </body>
 
 </html>
