@@ -10,5 +10,4 @@ $html->generate($html->beginBody());
 include 'navbar.php';
 
 $html->generate($html->endBody());
-
 ?>
